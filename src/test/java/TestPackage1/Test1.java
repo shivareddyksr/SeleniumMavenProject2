@@ -18,7 +18,7 @@ public class Test1 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.amazon.in/");
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		driver.close();
 		
 	}
